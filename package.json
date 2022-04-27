@@ -10,5 +10,9 @@
     "vuepress": "1.8.2",
     "vuepress-theme-reco": "1.6.10"
   },
-  "description": "吴同学的个人博客"
+  "description": "吴同学的个人博客",
+  "dependencies": {
+    "@vssue/api-github-v4": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8"
+  }
 }
