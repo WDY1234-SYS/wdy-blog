@@ -1,22 +1,24 @@
 module.exports = {
-  "title": "wdy",
+  "title": "DingYi",
   "description": "吴同学的博客",
   "dest": "public",
   "head": [
-    [
-      "link",
-      {
-        "rel": "icon",
-        "href": "/favicon.ico"
-      }
-    ],
-    [
-      "meta",
-      {
-        "name": "viewport",
-        "content": "width=device-width,initial-scale=1,user-scalable=no"
-      }
-    ]
+    // 网页标签栏图标
+    ['link', { "rel": 'icon', "href": '/favicon.ico' }],
+    // 移动栏优化
+    ['meta', { "name": 'viewport', "content": 'width=device-width,initial-scale=1,user-scalable=no' }],
+    // 引入jquery
+    ["script", {
+      "language": "javascript",
+      "type": "text/javascript",
+      "src": "https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"
+    }],
+    // 引入鼠标点击脚本
+    ["script", {
+      "language": "javascript",
+      "type": "text/javascript",
+      "src": "/js/MouseClickEffect.js"
+    }]
   ],
   "theme": "reco",
   "themeConfig": {
@@ -90,7 +92,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "wdy",
+    "author": "DingYi",
     "authorAvatar": "/avatar.png",
     "record": "xxxx",
     "startYear": "2017"
@@ -98,4 +100,7 @@ module.exports = {
   "markdown": {
     "lineNumbers": true
   },
+  "plugins":[
+    [".vuepress/theme/components/KanBanNiang"]
+  ]
 }
