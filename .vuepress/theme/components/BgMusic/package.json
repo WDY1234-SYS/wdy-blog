@@ -1,0 +1,62 @@
+{
+  "_from": "@vuepress-reco/vuepress-plugin-bgm-player",
+  "_id": "@vuepress-reco/vuepress-plugin-bgm-player@1.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-DPSTwyAKmgBu6607D7PzM0ZlW5g5TuMZPEGmSKS50AIvSTFL5AO0J33NQFT63jqVKJhKmjZ0kDB8dtegPYaNlg==",
+  "_location": "/@vuepress-reco/vuepress-plugin-bgm-player",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@vuepress-reco/vuepress-plugin-bgm-player",
+    "name": "@vuepress-reco/vuepress-plugin-bgm-player",
+    "escapedName": "@vuepress-reco%2fvuepress-plugin-bgm-player",
+    "scope": "@vuepress-reco",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-bgm-player/-/vuepress-plugin-bgm-player-1.1.4.tgz",
+  "_shasum": "c3107cb097f323a986ac6004b3dfb556901e74f5",
+  "_spec": "@vuepress-reco/vuepress-plugin-bgm-player",
+  "_where": "C:\\Users\\WDY\\Desktop\\wdy-blog",
+  "author": {
+    "name": "zsw",
+    "email": "zsw0407@outlook.com"
+  },
+  "bugs": {
+    "url": "https://github.com/vuepress-reco/vuepress-plugin-bgm-player/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "bgm player plugin for vuepress themes",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-plugin-vue": "^5.2.3"
+  },
+  "homepage": "https://vuepress-theme-reco.recoluan.com/views/plugins/bgmPlayer.html",
+  "keywords": [
+    "vuepress-theme-reco",
+    "bgm player",
+    "vuepress",
+    "music player"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@vuepress-reco/vuepress-plugin-bgm-player",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress-reco/vuepress-plugin-bgm-player.git"
+  },
+  "scripts": {
+    "eslint-ext": "eslint --ext .js,.vue ./",
+    "eslint-fix": "eslint --fix --ext .js,.vue ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.4"
+}

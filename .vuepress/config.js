@@ -101,6 +101,7 @@ module.exports = {
     "lineNumbers": true
   },
   "plugins":[
-    [".vuepress/theme/components/KanBanNiang"]
+    [".vuepress/theme/components/KanBanNiang"],
+    [".vuepress/theme/components/BgMusic"]
   ]
 }
