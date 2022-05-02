@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: 我是一名前端开发工程师
-tagline: 这是一个基于vuepress搭建的个人博客
+heroText: Hello World
+tagline: 记录生活
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
